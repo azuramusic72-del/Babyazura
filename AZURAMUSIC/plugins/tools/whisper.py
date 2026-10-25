@@ -176,7 +176,7 @@ async def in_help():
             title="💒 Whisper",
             description=f"@AzuraMusicBot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@AzuraMusicBot (Target Username or ID) (Your Message).\n\n**Example:**\n@AzuraMusicBot @username I Wanna Phuck You"),
-            thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+            thumb_url="https://iili.io/nkMQ2F2.jpg",
             reply_markup=switch_btn
         )
     ]

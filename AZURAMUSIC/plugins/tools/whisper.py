@@ -101,14 +101,14 @@ async def _whisper(_, inline_query):
                     title="💒 Whisper",
                     description=f"Send a Whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"💒 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="https://iili.io/nkMQ2F2.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="🔩 One-Time Whisper",
                     description=f"Send a one-time whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🔩 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="https://iili.io/nkMQ2F2.jpg",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -121,7 +121,7 @@ async def _whisper(_, inline_query):
                     title="💒 Whisper",
                     description="Invalid username or ID!",
                     input_message_content=InputTextMessageContent("Invalid username or ID!"),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="https://iili.io/nkMQ2F2.jpg",
                     reply_markup=switch_btn
                 )
             ]

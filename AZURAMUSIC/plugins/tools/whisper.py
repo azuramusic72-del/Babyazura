@@ -61,14 +61,14 @@ async def _whisper(_, inline_query):
                         f"Maximum allowed limit for a whisper is **200 characters**.\n\n"
                         f"Please shorten your text and try again!"
                     ),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="",
                     reply_markup=switch_btn
                 )
             ]
             results.append(mm)
             return results
         
-        # Check if user_id is Integer (User ID) or String (Username)
+        # Chehttps://iili.io/nkMQ2F2.jpgck if user_id is Integer (User ID) or String (Username)
         if user_id.isdigit() or (user_id.startswith("-") and user_id[1:].isdigit()):
             user_input = int(user_id)
         else:

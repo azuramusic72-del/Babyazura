@@ -32,7 +32,7 @@ def ap(eid, fb):
 
 
 BUTTON = [[InlineKeyboardButton("𝐒ᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT)]]
-CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
+CUTIE = "https://iili.io/nkML8yF.jpg"
 
 
 @app.on_message(filters.command("wish"))
@@ -66,7 +66,7 @@ async def wish(_, m):
             
     
 BUTTON = [[InlineKeyboardButton("𝐒ᴜᴘᴘᴏʀᴛ", url=config.SUPPORT_CHAT)]]
-CUTIE = "https://64.media.tumblr.com/d701f53eb5681e87a957a547980371d2/tumblr_nbjmdrQyje1qa94xto1_500.gif"
+CUTIE = "https://iili.io/nkML8yF.jpg"
 
 @app.on_message(filters.command("cute"))
 async def cute(_, message):

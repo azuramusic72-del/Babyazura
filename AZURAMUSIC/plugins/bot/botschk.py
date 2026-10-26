@@ -21,7 +21,7 @@ BOT_LIST = [
 async def bots_chk(client, message):
 
     msg = await message.reply_photo(
-        photo="https://telegra.ph/file/4d303296e4fac9a40ea07.jpg",
+        photo="https://iili.io/nkMLRhG.jpg",
         caption="**𝐂ʜᴇᴄᴋɪɴɢ 𝐁ᴏᴛꜱ 𝐒ᴛᴀᴛꜱ 𝐀ʟɪᴠᴇ ᴏʀ 𝐃ᴇᴀᴅ...**"
     )
 

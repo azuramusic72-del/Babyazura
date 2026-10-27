@@ -8,8 +8,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Required credentials
-API_ID = int(getenv("API_ID" 0))
-API_HASH = getenv("API_HASH" 0)
+API_ID = int(getenv("API_ID" ))
+API_HASH = getenv("API_HASH" )
 BOT_TOKEN = getenv("BOT_TOKEN" "8904509910:AAHeMHyo8DiRJjt4lqj2RsWvv0o_HTmhF7I")
 
 # Bot and owner info

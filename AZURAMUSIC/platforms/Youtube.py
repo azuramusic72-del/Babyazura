@@ -8,7 +8,7 @@ from pyrogram.types import Message
 from py_yt import VideosSearch, Playlist
 import aiohttp
 
-API_URL = os.environ.get("SHRUTI_API_URL", "https://api.shrutibots.in")
+API_URL = os.environ.get("SHRUTI_API_URL", "https://dash.shrutibots.in/app/keys")
 
 API_KEY = os.environ.get("SHRUTI_API_KEY", "ShrutiBotsX0YzHSeJmrT9t0Tx8gyJ") ## Get This API KEY FROM TELEGRAM BOT USERNAME: @SHRUTIAPIBOT 
 

@@ -33,14 +33,14 @@ async def init():
         LOGGER(__name__).error("𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐭 𝐅𝐢𝐥𝐥𝐞𝐝, 𝐏𝐥𝐞𝐚𝐬𝐞 𝐅𝐢𝐥𝐥 𝐀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐞𝐬𝐬𝐢𝐨𝐧")
         exit()
     await sudo()
-    try:
+        try:
         users = await get_gbanned()
         for user_id in users:
             BANNED_USERS.add(user_id)
         users = await get_banned_users()
         for user_id in users:
             BANNED_USERS.add(user_id)
-        except Exception as e:
+    except Exception as e:
         LOGGER(__name__).error(f"Banned users load nahi hue: {e}")
     await app.start()
     for all_module in ALL_MODULES:

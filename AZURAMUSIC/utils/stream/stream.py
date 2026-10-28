@@ -84,7 +84,7 @@ async def stream(
                 except Exception:
                     raise AssistantErr(_["play_14"])
 
-                await SHUKLA.join_call(
+                await AZURA.join_call(
                     chat_id,
                     original_chat_id,
                     file_path,
@@ -322,7 +322,7 @@ async def stream(
             if not forceplay:
                 db[chat_id] = []
 
-            await SHUKLA.join_call(
+            await AZURA.join_call(
                 chat_id,
                 original_chat_id,
                 file_path,

@@ -40,8 +40,8 @@ async def init():
         users = await get_banned_users()
         for user_id in users:
             BANNED_USERS.add(user_id)
-    except:
-        pass
+        except Exception as e:
+        LOGGER(__name__).error(f"Banned users load nahi hue: {e}")
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("AZURAMUSIC.plugins" + all_module)

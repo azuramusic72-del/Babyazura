@@ -15,6 +15,7 @@ import importlib
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 import config
+from config import BANNED_USERS
 from AZURAMUSIC import LOGGER, app, userbot
 from AZURAMUSIC.core.call import AZURA
 from AZURAMUSIC.misc import sudo
